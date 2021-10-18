@@ -1,8 +1,8 @@
 .pop-over{
     margin-left: 1rem;
     margin-top: 1rem;
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     background-color: #56a5eb;;
     border-color: #56a5eb;
     padding-top: 0rem;
@@ -12,6 +12,51 @@
 .pop-over-image{
     max-width: 100%;
     height: auto;
-    margin: 0.2rem;
-    padding: 0.2rem;
+    
 }
+
+.popover-image{
+    max-width: 100%;
+    height: auto;
+}
+
+.header{
+    display: flex;
+    margin: 1.5rem;
+}
+
+.images-btn  {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+    color: #56a5eb;
+    background-color: white;
+    
+    
+}
+.images-btn a{
+    text-decoration: none;
+    width: 100%;
+}
+
+.images-btn:hover {
+    color: white;
+    background-color: #56a5eb;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    text-decoration: none;
+}
+
+.images-btn a:hover{
+    color: white;
+}
+
+
