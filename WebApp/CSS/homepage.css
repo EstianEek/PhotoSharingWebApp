@@ -59,4 +59,7 @@
     color: white;
 }
 
-
+.accordion-item{
+    width: 25%;
+    margin-bottom: 5rem;
+}

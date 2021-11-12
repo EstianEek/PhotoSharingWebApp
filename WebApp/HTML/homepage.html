@@ -12,18 +12,36 @@
 <body>
     <h2 class="header">Recently viewed</h2>
     <div>
-        <button type="button" data-number="1" class="btn btn-secondary pop-over" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="focus" data-bs-placement="bottom"  title="" data-bs-content="1" ><img class="popover-image" data-number="1" src="/PhotoSharingWebApp/WebApp/Images/DSCF2588.JPG" alt=""></button>
-        <button type="button" data-number="2" class="btn btn-secondary pop-over" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="focus" data-bs-placement="bottom"  title="Popover title" data-bs-content="2" ><img class="popover-image" data-number="2" src="/PhotoSharingWebApp/WebApp/Images/DSCF2588.JPG" alt=""></button>
-        <button type="button" data-number="3" class="btn btn-secondary pop-over" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="focus" data-bs-placement="bottom"  title="Popover title" data-bs-content="3" ><img class="popover-image" data-number="3" src="/PhotoSharingWebApp/WebApp/Images/DSCF2588.JPG" alt=""></button>
-        <button type="button" data-number="4" class="btn btn-secondary pop-over" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="focus" data-bs-placement="bottom"  title="Popover title" data-bs-content="4"><img class="popover-image" data-number="4" src="/PhotoSharingWebApp/WebApp/Images/DSCF2588.JPG" alt=""></button>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button " id="accordion-image" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item ">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
     </div>
     
    
     <div>
-        <button type="button" data-number="5" id="pop5"" class="btn btn-secondary pop-over" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="focus" data-bs-placement="bottom"  title="Popover title" data-bs-content="5"><img class="popover-image" data-number="5" src="/PhotoSharingWebApp/WebApp/Images/DSCF2588.JPG" alt="">fgdfser</button>
-        <button type="button" data-number="6" class="btn btn-secondary pop-over" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="focus" data-bs-placement="bottom"  title="Popover title" data-bs-content="6"><img class="popover-image" data-number="6" src="/PhotoSharingWebApp/WebApp/Images/DSCF2588.JPG" alt=""></button>
-        <button type="button" data-number="7" class="btn btn-secondary pop-over" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="focus" data-bs-placement="bottom"  title="Popover title" data-bs-content="7"><img class="popover-image" data-number="7" src="/PhotoSharingWebApp/WebApp/Images/DSCF2588.JPG" alt=""></button>
-        <button type="button" data-number="8" class="btn btn-secondary pop-over" data-bs-toggle="popover" data-bs-container="body" data-bs-trigger="focus" data-bs-placement="bottom"  title="Popover title" data-bs-content="8"><img class="popover-image" data-number="8" src="/PhotoSharingWebApp/WebApp/Images/DSCF2588.JPG" alt=""></button>
+        
     </div>
     <div class="images-btn">
         <a href="images.html" >View all images</a>
