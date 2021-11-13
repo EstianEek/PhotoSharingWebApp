@@ -1,4 +1,8 @@
 
+getImageNames = () => {
+    
+}
+
 createAccordionImages = () => {
     const img = document.createElement("img");
     img.src = "/PhotoSharingWebApp/WebApp/Images/DSCF2588.JPG" 
